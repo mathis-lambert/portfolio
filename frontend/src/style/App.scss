@@ -1,4 +1,19 @@
 #root {
   max-width: 1400px;
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+.main-layout {
+  padding: 1rem;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-light);
 }
