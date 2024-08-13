@@ -1,11 +1,13 @@
 require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
 const connectDB = require('./config/database');
 const workRoutes = require('./routes/workRoutes');
 const articleRoutes = require('./routes/articleRoutes'); // ou blogPostRoutes
 const authRoutes = require('./routes/authRoutes');
 
 const app = express();
+app.use(cors());
 const port = process.env.PORT || 3000;
 
 // Middleware pour parsing JSON
