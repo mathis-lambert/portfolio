@@ -6,7 +6,20 @@
   --black-light: rgb(47, 48, 62);
   --black-dark: rgb(15, 15, 19);
   --link-light: rgb(0, 24, 255);
-    --link-dark: rgb(0, 0, 139);
+  --link-dark: rgb(0, 0, 139);
+  --success: hsl(136, 63%, 48%);
+  --success-light: hsl(139, 62%, 90%);
+  --success-dark: hsl(136, 63%, 30%);
+  --warning: hsl(45, 100%, 50%);
+  --warning-light: hsl(45, 100%, 90%);
+  --warning-dark: hsl(45, 100%, 30%);
+  --info: hsl(220, 100%, 56%);
+  --info-light: hsl(219, 100%, 94%);
+  --info-dark: hsl(222, 100%, 38%);
+  --error: hsl(2, 100%, 60%);
+  --error-light: hsl(0, 100%, 90%);
+  --error-dark: hsl(2, 100%, 30%);
+
   --font-family: 'Syne', sans-serif;
 
   font-family: var(--font-family), sans-serif;
@@ -30,15 +43,24 @@
   margin: 0;
   padding: 0;
   font-family: var(--font-family), sans-serif;
+  line-height: 1.25;
 }
+
+ul {
+  margin-block: 0.5rem;
+  margin-left: 1.5rem;
+}
+
 // To reenable dark mode, uncomment the following code:
 // Dark mode is disabled because it is not supported by the current design.
-//
-//@media (prefers-color-scheme: dark) {
-//  :root {
-//    --black-light: rgb(255, 255, 255);
-//    --white-gray: rgb(15, 15, 19);
-//    --white-light: rgb(25, 25, 31);
-//    --black-dark: rgb(235, 236, 241);
-//  }
-//}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --black-light: rgb(255, 255, 255);
+    --white-gray: rgb(15, 15, 19);
+    --white-light: rgb(25, 25, 31);
+    --black-dark: rgb(235, 236, 241);
+    --link-dark: rgb(0, 24, 255);
+    --link-light: rgb(30, 110, 255);
+  }
+}

@@ -5,15 +5,18 @@ const workSchema = new mongoose.Schema({
     description: {type: String, required: true},
     skills: {type: Array, required: true},
     dueDate: {type: Date, required: true},
-    budget: {type: Number, required: true},
-    imageUrl: {type: String, required: true},
-    userId: {type: String, required: true},
+    imageCover: {type: String, required: true},
+    images: {type: [String], required: true},
+    school: {type: String, required: true},
+    schoolYear: {type: String, required: true},
+    author: {type: String, required: true},
     status: {type: String, enum: ['In Progress', 'Completed', 'On Hold'], default: 'In Progress'}, // Statut du projet
 
     // Autres champs possibles
     projectUrl: {type: String}, // Lien vers le projet ou le site web
     repositoryUrl: {type: String}, // Lien vers le dépôt de code source (ex: GitHub)
     client: {type: String}, // Nom du client ou de l'entreprise pour laquelle le projet a été réalisé
+    budget: {type: Number, default: 0}, // Budget alloué pour le projet
     testimonials: [{ // Témoignages ou retours du client
         name: {type: String},
         feedback: {type: String},
@@ -29,3 +32,5 @@ const workSchema = new mongoose.Schema({
 });
 
 const Work = mongoose.model('Work', workSchema);
+
+module.exports = Work;

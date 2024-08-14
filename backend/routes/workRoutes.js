@@ -45,8 +45,10 @@ router.delete('/:id', protect, async (req, res) => {
 router.get('/', async (req, res) => {
     try {
         const works = await Work.find();
+        console.log(works);
         res.status(200).send(works);
     } catch (err) {
+        console.log(err);
         res.status(500).send(err);
     }
 });

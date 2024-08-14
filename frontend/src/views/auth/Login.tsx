@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import "./Login.scss";
 import { useDispatch } from "react-redux";
 import { setToken } from "../../redux/authSlice"; // Assurez-vous que ce chemin est correct
+import {useNavigate} from "react-router-dom";
 import { AppDispatch } from "../../redux/store";
-import Button from "../../components/buttons/Button01";
+import Button from "../../components/buttons/Button";
 
 const Login: React.FC = () => {
     const [email, setEmail] = useState<string>("");
     const [password, setPassword] = useState<string>("");
     const [error, setError] = useState<string | null>(null);
     const dispatch: AppDispatch = useDispatch();
+    const navigate = useNavigate();
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -37,7 +39,9 @@ const Login: React.FC = () => {
             dispatch(setToken(token));
 
             // Optionnel: stocker le token dans localStorage pour persistance
-            localStorage.setItem('token', token);
+            // localStorage.setItem('token', token);
+
+            navigate('/dashboard');
 
             // Redirection ou autres actions après connexion
             console.log('Logged in successfully!');

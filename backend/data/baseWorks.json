@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Portrait LowPoly",
+    "description": "<p>Dans le cadre de la première année de mon BUT MMI, j'ai réalisé un portrait en LowPoly en cours de création graphique. Le lowpoly est une technique de création à l'aide de polygones pour créer des formes et des volumes. C'est principalement utilisé dans le jeux vidéo pour créer des modèles 3D moins gourmands en ressources. Cette ressource m'a permis de m'initier à la création graphique et de découvrir les logiciels Photoshop et Illustrator. Dans le cadre du programme national, cela m'a permis de valider les compétences suivantes :</p> <ul> <li>Créer des images fixes ou animées</li> <li>Concevoir des interfaces utilisateurs</li> <li>Concevoir des supports de communication</li> </ul>",
+    "skills": [
+      "Graphic design",
+      "Creation"
+    ],
+    "dueDate": "2021-09-30T00:00:00Z",
+    "imageCover": "/images/lowpoly_cover.png",
+    "images": [
+      "/images/lowpoly_cover.png",
+      "/images/lowpoly_portrait.png"
+    ],
+    "school": "IUT MMI Toulon",
+    "schoolYear": "Année 1",
+    "author": "Mathis LAMBERT",
+    "status": "Completed",
+    "category": "Graphic Design",
+    "tools": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "visibility": "Public",
+    "featured": true,
+    "tags": [
+      "portrait",
+      "lowpoly",
+      "graphic design",
+      "photoshop",
+      "illustrator"
+    ]
+  },
+  {
+    "title": "Cahier des Charges Fonctionnel - Mitr'O Glisse",
+    "description": "<p>Dans le cadre de la première année de mon BUT MMI, j'ai réalisé un portrait en LowPoly en cours de création graphique. Le lowpoly est une technique de création à l'aide de polygones pour créer des formes et des volumes. C'est principalement utilisé dans le jeux vidéo pour créer des modèles 3D moins gourmands en ressources. Cette ressource m'a permis de m'initier à la création graphique et de découvrir les logiciels Photoshop et Illustrator. Dans le cadre du programme national, cela m'a permis de valider les compétences suivantes :</p> <ul> <li>Créer des images fixes ou animées</li> <li>Concevoir des interfaces utilisateurs</li> <li>Concevoir des supports de communication</li> </ul>",
+    "skills": [
+      "Project Management",
+      "Communication",
+      "Strategy",
+      "Analysis"
+    ],
+    "dueDate": "2021-12-15T00:00:00Z",
+    "imageCover": "/images/cdcf-mitro-glisse.png",
+    "projectUrl": "/pdf/cdcf-mitro-glisse.pdf",
+    "images": [],
+    "school": "IUT MMI Toulon",
+    "schoolYear": "Année 1",
+    "author": "Mathis LAMBERT",
+    "status": "Completed",
+    "category": "Graphic Design",
+    "tools": [
+      "PowerPoint"
+    ],
+    "visibility": "Public",
+    "featured": true,
+    "tags": [
+      "specifications",
+      "analysis"
+    ]
+  }
+]
