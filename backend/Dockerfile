@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Exposer le port 10090
-EXPOSE 10090
+EXPOSE 10091
 
 # Démarrer l'application en mode développement avec le serveur Vite
 CMD ["node", "app.js"]
