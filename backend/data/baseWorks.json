@@ -1,7 +1,7 @@
 [
   {
     "title": "Portrait LowPoly",
-    "description": "<p>Dans le cadre de la première année de mon BUT MMI, j'ai réalisé un portrait en LowPoly en cours de création graphique. Le lowpoly est une technique de création à l'aide de polygones pour créer des formes et des volumes. C'est principalement utilisé dans le jeux vidéo pour créer des modèles 3D moins gourmands en ressources. Cette ressource m'a permis de m'initier à la création graphique et de découvrir les logiciels Photoshop et Illustrator. Dans le cadre du programme national, cela m'a permis de valider les compétences suivantes :</p> <ul> <li>Créer des images fixes ou animées</li> <li>Concevoir des interfaces utilisateurs</li> <li>Concevoir des supports de communication</li> </ul>",
+    "description": "<p>Dans le cadre de la première année de mon BUT MMI, j'ai réalisé un portrait en LowPoly en cours de création graphique.<br />Le lowpoly est une technique de création à l'aide de polygones pour créer des formes et des volumes.C'est principalement utilisé dans le jeux vidéo pour créer des modèles 3D moins gourmands en ressources. <br /><br />Cette ressource m'a permis de m'initier à la création graphique et de découvrir les logiciels Photoshop et Illustrator.L'objectif de cet exercice était de réaliser un portrait en LowPoly à partir d'une photo de référence.Ici, j'ai choisi d'utiliser une photo de moi au Handball pour réaliser ce portrait.La première étape a été de réaliser tous les polygones en décalquant la photo de référence.Ensuite, il a fallu coloriser chacun des polygones pour rendre à l'image les ombres, lumières et couleurs de la photo de référence.<br /> <br />Dans le cadre du programme national, ce projet s'intègre dans les unités d'enseignements (UE) :</p><ul><li><b>UE 1.3</b> : Exprimer</li></ul><p>Les apprentissages critiques de ces UE sont les suivants :</p><ul><li><b>AC 13.03</b> : Créer, composer et retoucher des visuels</li></ul>",
     "skills": [
       "Graphic design",
       "Creation"
@@ -32,8 +32,8 @@
     ]
   },
   {
-    "title": "Cahier des Charges Fonctionnel - Mitr'O Glisse",
-    "description": "<p>Dans le cadre de la première année de mon BUT MMI, j'ai réalisé un portrait en LowPoly en cours de création graphique. Le lowpoly est une technique de création à l'aide de polygones pour créer des formes et des volumes. C'est principalement utilisé dans le jeux vidéo pour créer des modèles 3D moins gourmands en ressources. Cette ressource m'a permis de m'initier à la création graphique et de découvrir les logiciels Photoshop et Illustrator. Dans le cadre du programme national, cela m'a permis de valider les compétences suivantes :</p> <ul> <li>Créer des images fixes ou animées</li> <li>Concevoir des interfaces utilisateurs</li> <li>Concevoir des supports de communication</li> </ul>",
+    "title": "Mitr'O Glisse - SAE 103",
+    "description": "<p>Ce projet a été réalisé dans le cadre de la SAÉ (Situation d'Apprentissage et d'Évaluation) 103 au cours de ma première année de BUT MMI à Toulon.<br />L'objectif de cette SAÉ était de créer une identité visuelle compléte pour une entreprise commercialisant des produits de sport de glisse liésau territoire maritime de la ville de Toulon. Les différents livrables attendus étaient donc :</p><ul><li>Imaginer le nom de l'entreprise</li><li>Une charte graphique complète</li><li>Valeurs de l'entreprise</li></ul><p>Le nom de l'entreprise que mon groupe a imaginé est \"Mitr'O Glisse\" en référence à la plage de la Mitre située à Toulon au Mourillon.<br />Cette SAÉ a été très complète et nous a permis de mettre en pratique de nombreuses compétences graphiques et de communication,mais aussi de gestion de projet pour ma part, car j'ai été le chef de projet et j'ai ainsi dû gérer les délais et les tâches de chacun.<br /><br />Dans le cadre du programme national, ce projet s'intègre dans les unités d'enseignements (UE) :</p><ul><li><b>UE 2.3</b> : Exprimer</li></ul><p>Les apprentissages critiques de ces UE sont les suivants :</p><ul><li><b>AC 13.02</b> : Produire des pistes graphiques et des planches d'inspiration.</li><li><b>AC 13.03</b> : Créer, composer et retoucher des visuels</li><li><b>AC 13.06</b> : Optimiser les médias en fonction de leurs usages et supports de diffusion.</li></ul>",
     "skills": [
       "Project Management",
       "Communication",
@@ -43,7 +43,10 @@
     "dueDate": "2021-12-15T00:00:00Z",
     "imageCover": "/images/cdcf-mitro-glisse.png",
     "projectUrl": "/pdf/cdcf-mitro-glisse.pdf",
-    "images": [],
+    "images": [
+      "/images/cdcf-mitro-glisse.png",
+      "/images/charte-graphique-sae-103.png"
+    ],
     "school": "IUT MMI Toulon",
     "schoolYear": "Année 1",
     "author": "Mathis LAMBERT",
@@ -57,6 +60,68 @@
     "tags": [
       "specifications",
       "analysis"
+    ]
+  },
+  {
+    "title": "KATAPULT - SAÉ 202",
+    "description": "<p>KATAPULT est une agence fictive qui est le fruit du travail accompli pour la SAÉ 202 au cours du 2ᵉ semestre de ma première année de BUT MMI.<br />L'objectif de cette SAÉ était de créer une agence de communication fictive. Cette agence a dû être créée de A à Z, de l'identité visuelle à la stratégie de communication en passant par le site web.Nous avons même imaginé un événement qui s'est déroulé au sein de l'IUT de Toulon avec comme thème imposé \"La Cigale\".<br />Étant donné que j'ai été chef de projet pour cette SAÉ, j'ai dû gérer les délais, les tâches de chacun et la communication au sein du groupe en plus de réaliser des tâches graphiques et de développement.<br /><br />Les différents livrables attendus étaient :</p><ul><li>Créer un nom, logo et une charte graphique pour l'agence</li><li>Définir les status juridiques de l'agence</li><li>Réaliser un site web vitrine</li><li>Réaliser un teaser de lancement de l'agence</li><li>Réaliser une campagne de publicité pour l'événement</li></ul><h3> Attentes pour le site web </h3><ul><li>Site interactif</li><li>Doit comporter : Descriptif de l'agence et ses valeurs, OBS (Organizational Breakdown Structure), Teaser, Flux RSS, Formulaire de contact, Page suivi de projet</li><li>Mis en place via WordPress</li><li>Fournir une analyse de l'hébergement et du référencement</li></ul><h3> Attentes pour le teaser de lancement </h3><ul><li>Durée de 60 secondes</li><li>Intégration d'animations graphiques (motion-design)</li></ul><h3> Attentes pour l'événement \"La Cigale\" </h3><p>Le thème imposé pour l'événement était \"La Cigale\". Nous avons donc dû réaliser une campagne de communication pour cet événement.<br />Nous avons choisi d'associer les cigales au jeux-vidéo Angry Birds, ce qui a donné naissance à \"Angry Cigale\". Suite à cela, nous avons créé des flyers, des affiches et des stories/posts Instagram pour promouvoir l'événement.<br />Les attendus pour cet événement étaient :</p><ul><li>Respecter le thème \"La Cigale\"</li><li>Créer une campagne de publicité qui cible les étudiants de l'IUT</li><li>Créer des supports de communication variés (affiches, posts, etc...)</li><li>Doit permettre de faire connaître l'agence KATAPULT</li><li>Fournir une étude et une analyse de l'impact de la campagne</li></ul><p><br /><br />Dans le cadre du programme national, ce projet s'intègre dans les unités d'enseignements (UE) :</p><ul><li><b>UE 2.2</b> : Concevoir</li><li><b>UE 2.3</b> : Exprimer</li><li><b>UE 2.4</b> : Développer</li><li><b>UE 2.5</b> : Entreprendre</li></ul><p>Les apprentissages critiques de ces UE sont les suivants :</p><ul><li><b>AC 12.01</b> : Concevoir un produit ou un service en terme d'usage ou de fonctionnalité</li><li><b>AC 12.02</b> : Construire la proposition de valeur d'un produit ou d'un service</li><li><b>AC 12.03</b> : Proposer une recommandation marketing (Cibles, Objectifs, Points de contact)</li><li><b>AC 12.04</b> : Proposer une stratégie de communication</li><br /><li><b>AC 13.01</b> : Écrire pour les médias numériques</li><li><b>AC 13.02</b> : Produire des pistes graphiques et des planches d'inspiration</li><li><b>AC 13.03</b> : Créer, composer et retoucher des visuels</li><li><b>AC 13.04</b> : Tourner et monter une vidéo (scénario, captation, montage)</li><li><b>AC 13.05</b> : Designer une interface web (Wireframe, UI)</li><li><b>AC 13.06</b> : Optimiser les médias en fonction de leurs usages et supports de diffusion</li><br /><li><b>AC 14.06</b> : Déployer et personnaliser une application web en utilisant un CMS ou un framework MVC</li><br /><li><b>AC 15.01</b> : Gérer un projet avec une méthode classique</li><li><b>AC 15.02</b> : Budgéter un projet et suivre sa rentabilité</li><li><b>AC 15.03</b> : Découvrir les écosystèmes d'innovation numérique</li><li><b>AC 15.04</b> : Analyser un produit ou un service innovant en identifiant les propositions de valeurs et en évaluant les solutions proposées</li><li><b>AC 15.06</b> : Interagir au sein des organisations</li><li><b>AC 15.07</b> : Produire un message écrit ou oral professionnel</li></ul>",
+    "skills": [
+      "Project Management",
+      "Communication",
+      "Strategy",
+      "Analysis",
+      "Web Development",
+      "Graphic Design",
+      "Motion Design",
+      "Marketing",
+      "SEO",
+      "CMS",
+      "UI Design",
+      "Video Editing"
+    ],
+    "dueDate": "2022-06-02T00:00:00Z",
+    "imageCover": "/images/charte-graphique-katapult.png",
+    "projetLinks": [
+      {
+        "title": "Site Web",
+        "url": "https://katapult.iut-toulon.univ-amu.fr/"
+      },
+      {
+        "title": "Teaser",
+        "url": "https://www.youtube.com/watch?v=3J9Z9Z9Z9Z9"
+      }
+    ],
+    "images": [
+      "/images/charte-graphique-katapult.png"
+    ],
+    "school": "IUT MMI Toulon",
+    "schoolYear": "Année 1",
+    "author": "Mathis LAMBERT",
+    "status": "Completed",
+    "category": "Graphic Design",
+    "tools": [
+      "PowerPoint",
+      "WordPress",
+      "Adobe Premiere Pro",
+      "Adobe After Effects",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Adobe XD",
+      "Google Analytics",
+      "Google Search Console"
+    ],
+    "visibility": "Public",
+    "featured": false,
+    "tags": [
+        "specifications",
+        "analysis",
+        "web development",
+        "motion design",
+        "marketing",
+        "seo",
+        "cms",
+        "ui design",
+        "video editing"
     ]
   }
 ]

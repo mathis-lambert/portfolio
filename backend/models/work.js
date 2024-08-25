@@ -14,6 +14,7 @@ const workSchema = new mongoose.Schema({
 
     // Autres champs possibles
     projectUrl: {type: String}, // Lien vers le projet ou le site web
+    projetLinks: {type: [{title: String, url: String}]}, // Liens supplémentaires pour le projet
     repositoryUrl: {type: String}, // Lien vers le dépôt de code source (ex: GitHub)
     client: {type: String}, // Nom du client ou de l'entreprise pour laquelle le projet a été réalisé
     budget: {type: Number, default: 0}, // Budget alloué pour le projet

@@ -13,7 +13,7 @@
       height: auto;
       max-height: 500px;
       object-fit: contain;
-      margin-block: 1rem;
+      margin-block: 2rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -47,13 +47,35 @@
 
     & .work__view__info {
       background-color: var(--white-gray);
-      flex: 1 1 300px;
+      flex: 1 1 200px;
       padding: 1rem;
       border-radius: 1rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 1rem;
+
+      & .work__view__info__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+
+        & h2 {
+          font-size: 1.25rem;
+          font-weight: 600;
+          color: var(--black-light);
+        }
+
+        & .work__view__info__item__value {
+          font-size: 1rem;
+          font-weight: 400;
+          color: var(--black-light);
+          padding: 0.5rem;
+          border-radius: 0.5rem;
+          background-color: var(--white-light);
+        }
+      }
     }
   }
 }

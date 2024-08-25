@@ -1,0 +1,76 @@
+<p>KATAPULT est une agence fictive qui est le fruit du travail accompli pour la SAÉ 202 au cours du 2ᵉ semestre de ma première année de BUT MMI.
+<br />
+L'objectif de cette SAÉ était de créer une agence de communication fictive. Cette agence a dû être créée de A à Z, de l'identité visuelle à la stratégie de communication en passant par le site web.
+Nous avons même imaginé un événement qui s'est déroulé au sein de l'IUT de Toulon avec comme thème imposé "La Cigale".
+<br />
+Étant donné que j'ai été chef de projet pour cette SAÉ, j'ai dû gérer les délais, les tâches de chacun et la communication au sein du groupe en plus de réaliser des tâches graphiques et de développement.
+<br /><br />
+Les différents livrables attendus étaient :</p>
+<ul>
+<li>Créer un nom, logo et une charte graphique pour l'agence</li>
+<li>Définir les status juridiques de l'agence</li>
+<li>Réaliser un site web vitrine</li>
+<li>Réaliser un teaser de lancement de l'agence</li>
+<li>Réaliser une campagne de publicité pour l'événement</li>
+</ul>
+
+<h3> Attentes pour le site web </h3>
+<ul>
+<li>Site interactif</li>
+<li>Doit comporter : Descriptif de l'agence et ses valeurs, OBS (Organizational Breakdown Structure), Teaser, Flux RSS, Formulaire de contact, Page suivi de projet</li>
+<li>Mis en place via WordPress</li>
+<li>Fournir une analyse de l'hébergement et du référencement</li>
+</ul>
+
+<h3> Attentes pour le teaser de lancement </h3>
+<ul>
+<li>Durée de 60 secondes</li>
+<li>Intégration d'animations graphiques (motion-design)</li>
+</ul>
+
+<h3> Attentes pour l'événement "La Cigale" </h3>
+<p>Le thème imposé pour l'événement était "La Cigale". Nous avons donc dû réaliser une campagne de communication pour cet événement.
+<br />
+Nous avons choisi d'associer les cigales au jeux-vidéo Angry Birds, ce qui a donné naissance à "Angry Cigale". Suite à cela, nous avons créé des flyers, des affiches et des stories/posts Instagram pour promouvoir l'événement.
+<br />
+Les attendus pour cet événement étaient :</p>
+<ul>
+<li>Respecter le thème "La Cigale"</li>
+<li>Créer une campagne de publicité qui cible les étudiants de l'IUT</li>
+<li>Créer des supports de communication variés (affiches, posts, etc...)</li>
+<li>Doit permettre de faire connaître l'agence KATAPULT</li>
+<li>Fournir une étude et une analyse de l'impact de la campagne</li>
+</ul>
+<p>
+<br /><br />
+Dans le cadre du programme national, ce projet s'intègre dans les unités d'enseignements (UE) :
+</p>
+<ul>
+<li><b>UE 2.2</b> : Concevoir</li>
+<li><b>UE 2.3</b> : Exprimer</li>
+<li><b>UE 2.4</b> : Développer</li>
+<li><b>UE 2.5</b> : Entreprendre</li>
+</ul>
+<p>Les apprentissages critiques de ces UE sont les suivants :</p>
+<ul>
+<li><b>AC 12.01</b> : Concevoir un produit ou un service en terme d'usage ou de fonctionnalité</li>
+<li><b>AC 12.02</b> : Construire la proposition de valeur d'un produit ou d'un service</li>
+<li><b>AC 12.03</b> : Proposer une recommandation marketing (Cibles, Objectifs, Points de contact)</li>
+<li><b>AC 12.04</b> : Proposer une stratégie de communication</li>
+<br />
+<li><b>AC 13.01</b> : Écrire pour les médias numériques</li>
+<li><b>AC 13.02</b> : Produire des pistes graphiques et des planches d'inspiration</li>
+<li><b>AC 13.03</b> : Créer, composer et retoucher des visuels</li>
+<li><b>AC 13.04</b> : Tourner et monter une vidéo (scénario, captation, montage)</li>
+<li><b>AC 13.05</b> : Designer une interface web (Wireframe, UI)</li>
+<li><b>AC 13.06</b> : Optimiser les médias en fonction de leurs usages et supports de diffusion</li>
+<br />
+<li><b>AC 14.06</b> : Déployer et personnaliser une application web en utilisant un CMS ou un framework MVC</li>
+<br />
+<li><b>AC 15.01</b> : Gérer un projet avec une méthode classique</li>
+<li><b>AC 15.02</b> : Budgéter un projet et suivre sa rentabilité</li>
+<li><b>AC 15.03</b> : Découvrir les écosystèmes d'innovation numérique</li>
+<li><b>AC 15.04</b> : Analyser un produit ou un service innovant en identifiant les propositions de valeurs et en évaluant les solutions proposées</li>
+<li><b>AC 15.06</b> : Interagir au sein des organisations</li>
+<li><b>AC 15.07</b> : Produire un message écrit ou oral professionnel</li>
+</ul>

@@ -69,25 +69,43 @@ const Work = () => {
                         </div>
                         <div className="work__view__details">
                             <div className="work__view__description">
+                                <h2>Description</h2>
+                                <br/>
                                 <HTMLString html={work?.description}/>
                             </div>
                             <div className="work__view__info">
-                                <h2>Category</h2>
-                                <p>{work?.category}</p>
-                                <h2>Due Date</h2>
-                                <p>{new Date(work?.dueDate).toLocaleDateString()}</p>
-                                <h2>Skills</h2>
-                                <ul>
-                                    {work?.skills.map((skill, index) => (
-                                        <li key={index}>{skill}</li>
-                                    ))}
-                                </ul>
-                                <h2>Tools</h2>
-                                <ul>
-                                    {work?.tools?.map((tool, index) => (
-                                        <li key={index}>{tool}</li>
-                                    ))}
-                                </ul>
+                                <div className="work__view__info__item">
+                                    <h2>Catégorie</h2>
+                                    <div className="work__view__info__item__value">
+                                        <p>{work?.category}</p>
+                                    </div>
+                                </div>
+                                <div className="work__view__info__item">
+                                    <h2>Date de rendu</h2>
+                                    <div className="work__view__info__item__value">
+                                        <p>{new Date(work?.dueDate).toLocaleDateString()}</p>
+                                    </div>
+                                </div>
+                                <div className="work__view__info__item">
+                                    <h2>Compétences</h2>
+                                    <div className={"work__view__info__item__value"}>
+                                        <ul>
+                                            {work?.skills.map((skill, index) => (
+                                                <li key={index}>{skill}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="work__view__info__item">
+                                    <h2>Outils</h2>
+                                    <div className={"work__view__info__item__value"}>
+                                        <ul>
+                                            {work?.tools?.map((tool, index) => (
+                                                <li key={index}>{tool}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>

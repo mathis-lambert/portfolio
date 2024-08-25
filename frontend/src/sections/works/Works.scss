@@ -1,18 +1,15 @@
 .works {
+  border-radius: 1rem;
 
   &.section {
     background-color: var(--white-gray);
     padding: 1rem;
-
     & .works-container {
       & .work {
         background-color: var(--white-light);
-
       }
     }
   }
-
-  border-radius: 1rem;
 
   & .works-header {
     display: flex;
