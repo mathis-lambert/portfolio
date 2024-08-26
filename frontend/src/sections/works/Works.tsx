@@ -25,6 +25,8 @@ export interface Work {
     imageCover: string;
     images: string[];
     author: string;
+    school: string;
+    schoolYear: string;
     status: 'In Progress' | 'Completed' | 'On Hold';
     projectUrl?: string;
     repositoryUrl?: string;
@@ -39,11 +41,58 @@ export interface Work {
     tags?: string[];
 }
 
+export interface WorksFilters {
+    category: string[];
+    status: string[];
+    tags: string[];
+    tools: string[];
+    name: string;
+    schools: string[];
+    schoolYears: string[];
+}
+
 
 const Works = ({limit = null, section = false}: { limit: number | null, section: boolean }) => {
     const token = useSelector((state: RootState) => state.auth.token);
     const [works, setWorks] = useState<Work[]>([]);
+    const [filteredWorks, setFilteredWorks] = useState<Work[]>([]);
+    const [availableFilters, setAvailableFilters] = useState<WorksFilters>({
+        category: [],
+        status: [],
+        tags: [],
+        tools: [],
+        name: '',
+        schools: [],
+        schoolYears: []
+    });
+    const [filters, setFilters] = useState<WorksFilters>({
+        category: ['all'],
+        status: ['all'],
+        tags: ['all'],
+        tools: ['all'],
+        name: '',
+        schools: ['all'],
+        schoolYears: ['all']
+    });
+    // const [search, setSearch] = useState('');
+
     const navigate = useNavigate()
+
+    const filterWorks = () => {
+        const filteredWorks = works.filter((work) => {
+            return (
+                (filters.category.includes('all') || filters.category.includes(work.category!)) &&
+                (filters.status.includes('all') || filters.status.includes(work.status)) &&
+                (filters.tags.includes('all') || filters.tags.some((tag) => work.tags?.includes(tag))) &&
+                (filters.tools.includes('all') || filters.tools.some((tool) => work.tools?.includes(tool))) &&
+                (filters.schools.includes('all') || filters.schools.includes(work.school)) &&
+                (filters.schoolYears.includes('all') || filters.schoolYears.includes(work.schoolYear)) &&
+                (work.title.toLowerCase().includes(filters.name.toLowerCase()))
+            );
+        });
+
+        setFilteredWorks(filteredWorks);
+    }
 
     const fetchData = async () => {
         try {
@@ -63,6 +112,40 @@ const Works = ({limit = null, section = false}: { limit: number | null, section:
         fetchData();
     }, []);
 
+    useEffect(() => {
+        if (works.length === 0) return;
+
+        const categories = new Set<string>();
+        const statuses = new Set<string>();
+        const tags = new Set<string>();
+        const tools = new Set<string>();
+        const schools = new Set<string>();
+        const schoolYears = new Set<string>();
+
+        works.forEach((work) => {
+            categories.add(work.category!);
+            statuses.add(work.status);
+            work.tags?.forEach((tag) => tags.add(tag));
+            work.tools?.forEach((tool) => tools.add(tool));
+            schools.add(work.school);
+            schoolYears.add(work.schoolYear);
+        });
+
+        setAvailableFilters({
+            category: Array.from(categories),
+            status: Array.from(statuses),
+            tags: Array.from(tags),
+            tools: Array.from(tools),
+            name: '',
+            schools: Array.from(schools),
+            schoolYears: Array.from(schoolYears)
+        });
+    }, [works]);
+
+    useEffect(() => {
+        filterWorks();
+    }, [filters, works]);
+
 
     return (
         <div className={`works ${section ? 'section' : ''}`}>
@@ -73,8 +156,91 @@ const Works = ({limit = null, section = false}: { limit: number | null, section:
                 )}
             </div>
 
+            <div className="works-filters">
+                <div className="filter">
+                    <label htmlFor="name">Search</label>
+                    <input type="text" id={"name"} onChange={(e) => {
+                        setFilters({...filters, name: e.target.value});
+                    }}/>
+                </div>
+
+                <div className="filter">
+                    <label htmlFor="category">Category</label>
+                    <select id={"category"} onChange={(e) => {
+                        setFilters({...filters, category: e.target.value.split(',')});
+                    }}>
+                        <option value={'all'}>All</option>
+                        {availableFilters.category.map((category) => (
+                            <option key={category} value={category}>{category}</option>
+                        ))}
+                    </select>
+                </div>
+
+                {/*<div className="filter">*/}
+                {/*    <label htmlFor="status">Status</label>*/}
+                {/*    <select id={"status"} value={filters.status} onChange={(e) => {*/}
+                {/*        setFilters({...filters, status: e.target.value.split(',')});*/}
+                {/*    }}>*/}
+                {/*        <option value={'all'}>All</option>*/}
+                {/*        {availableFilters.status.map((status) => (*/}
+                {/*            <option key={status} value={status}>{status}</option>*/}
+                {/*        ))}*/}
+                {/*    </select>*/}
+                {/*</div>*/}
+
+                {/*<div className="filter">*/}
+                {/*    <label htmlFor="tags">Tags</label>*/}
+                {/*    <select id={"tags"} value={filters.tags} onChange={(e) => {*/}
+                {/*        setFilters({...filters, tags: e.target.value.split(',')});*/}
+                {/*    }}>*/}
+                {/*        <option value={'all'}>All</option>*/}
+                {/*        {availableFilters.tags.map((tag) => (*/}
+                {/*            <option key={tag} value={tag}>{tag}</option>*/}
+                {/*        ))}*/}
+                {/*    </select>*/}
+                {/*</div>*/}
+
+                {/*<div className="filter">*/}
+                {/*    <label htmlFor="tools">Tools</label>*/}
+                {/*    <select id={"tools"} value={filters.tools} onChange={(e) => {*/}
+                {/*        setFilters({...filters, tools: e.target.value.split(',')});*/}
+                {/*    }}>*/}
+                {/*        <option value={'all'}>All</option>*/}
+                {/*        {availableFilters.tools.map((tool) => (*/}
+                {/*            <option key={tool} value={tool}>{tool}</option>*/}
+                {/*        ))}*/}
+                {/*    </select>*/}
+                {/*</div>*/}
+
+                <div className="filter">
+                    <label htmlFor="schools">Schools</label>
+                    <select id={"schools"} onChange={(e) => {
+                        setFilters({...filters, schools: e.target.value.split(',')});
+                    }
+                    }>
+                        <option value={'all'}>All</option>
+                        {availableFilters.schools.map((school) => (
+                            <option key={school} value={school}>{school}</option>
+                        ))}
+                    </select>
+                </div>
+
+                <div className="filter">
+                    <label htmlFor="schoolYears">School Years</label>
+                    <select id={"schoolYears"} onChange={(e) => {
+                        setFilters({...filters, schoolYears: e.target.value.split(',')});
+                    }
+                    }>
+                        <option value={'all'}>All</option>
+                        {availableFilters.schoolYears.map((schoolYear) => (
+                            <option key={schoolYear} value={schoolYear}>{schoolYear}</option>
+                        ))}
+                    </select>
+                </div>
+            </div>
+
             <div className="works-container">
-                {works.map((work) => (
+                {filteredWorks.map((work) => (
                     <div key={work._id} className={"work"}>
                         <div className="work-header">
                             <div className="work-title">

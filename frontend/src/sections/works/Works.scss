@@ -9,6 +9,10 @@
         background-color: var(--white-light);
       }
     }
+
+    & .works-filters {
+      display: none;
+    }
   }
 
   & .works-header {
@@ -41,6 +45,26 @@
         background-color: var(--white-light);
         color: var(--black-light);
       }
+    }
+  }
+
+  & .works-filters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    & select, input {
+        background-color: var(--white-gray);
+        color: var(--black-light);
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
     }
   }
 
