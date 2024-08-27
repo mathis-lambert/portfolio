@@ -1,0 +1,110 @@
+.slider-container {
+  //position: relative;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  max-height: 400px;
+
+  & .slick-slide {
+    outline: none !important;
+    user-select: none;
+
+    &>div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+    }
+  }
+
+  & .slider-item {
+    transition: opacity 0.5s ease;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    user-select: none;
+
+    &:focus-visible {
+      outline: none;
+    }
+
+    & .slide {
+      object-fit: contain;
+      max-width: 100%;
+      max-height: 400px;
+    }
+  }
+
+  & .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &::before {
+      font-size: 1.5rem;
+      color: rgba(255, 255, 255, 0.75);
+    }
+
+    &.slick-prev {
+      left: 0.5rem;
+    }
+
+    &.slick-next {
+      right: 0.5rem;
+    }
+  }
+
+  & .slick-thumb {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+    bottom: -40px;
+
+    & li {
+      width: 25px;
+      height: 25px;
+      opacity: 0.25;
+      filter: grayscale(1);
+      transition: all 0.3s ease;
+
+      &.slick-active {
+        opacity: 1;
+        filter: grayscale(0);
+      }
+
+      & .thumbnail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 25px;
+        height: 25px;
+        object-fit: contain;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        img {
+          object-fit: contain;
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+}

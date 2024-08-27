@@ -5,6 +5,7 @@ import {useSelector} from "react-redux";
 import {RootState} from "../../redux/store.ts";
 import HTMLString from "../../components/HTMLString/HTMLString.tsx";
 import "./Work.scss"
+import {ImageCarousel} from "../../components/ImageCarousel/ImageCarousel.tsx";
 
 interface Testimonial {
     name: string;
@@ -64,9 +65,9 @@ const Work = () => {
                 <div className={"work__view"}>
                     <div className="work__view__container">
                         <h1>{work?.title}</h1>
-                        <div className="work__view__cover">
-                            <img src={work?.imageCover} alt={work?.title}/>
-                        </div>
+                        <ImageCarousel images={work?.images || []}/>
+                        {/*<div className="work__view__cover">*/}
+                        {/*</div>*/}
                         <div className="work__view__details">
                             <div className="work__view__description">
                                 <h2>Description</h2>

@@ -171,5 +171,46 @@
       "mysql",
       "sgbd"
     ]
+  },
+  {
+    "title": "Fokaya - GameJam - SAÉ 403",
+    "description": "<p>Dans le cadre de la SAÉ 403 qui s'est déroulée sous la forme d'une GameJam (Hackathon destiné aux Jeux Vidéos) au cours du 2nd semestre de ma 2ᵉ année de BUT MMI. Ce hackathon avait comme thème \"Voyage au centre de la terre\" et s'est déroulé en groupe. J'étais le seul développeur au sein du groupe, mais mes coéquipiers se sont donc occupé de tout l'aspect narratif ainsi que la conception des visuels. <br />En parallèle, je me suis occupé du développement intégral du jeu en moins de 3 jours. <br /> Les cours que nous avons eus en Game Dev m'ont permis d'utiliser Unity avec les connaissances nécessaires pour développer rapidement tout en versionnant mon code avec Git. <br />Pour notre jeu, nous avons choisi le nom \"Fokaya\" et le style de jeu sur lequel nous sommes parti est un jeu d'aventure avec vue de haut. L'objectif ici est d'explorer, résoudre des énigmes, se défendre de terribles créatures et réussir à arriver au bout sans mourir ! <br />La pression des hackathon me pousse à me dépasser et à développer le plus de fonctionnalités possible en un temps record. Pour ce projet, j'ai réussi à développer l'intégralité des niveaux en plus des mécaniques des énigmes. <br />Cela a été une expérience nouvelle est très enrichissante pour moi car c'est très différent du développement Web et je suis très satisfait de ce que nous avons réussi à produire.<br /><b>Une version jouable en ligne arrive bientôt !</b><br /> <br />Dans le cadre du programme national, cette SAÉ s'intègre dans les unités d'enseignements (UE) :</p><ul><li><b>UE 4.4</b> : Développer</li></ul><p>Les apprentissages critiques de ces UE sont les suivants :</p><ul><li><b>AC 24.03</b> : Intégrer, Produire ou développer des interactions riches ou des dispositifs interactifs</li></ul>",
+    "skills": [
+      "Game Development",
+      "Unity",
+      "C#",
+      "Versioning",
+      "Git"
+    ],
+    "dueDate": "2022-06-02T00:00:00Z",
+    "imageCover": "/images/fokaya-1.png",
+    "projetLinks": [
+    ],
+    "images": [
+      "/images/fokaya-1.png",
+      "/images/fokaya-2.png",
+      "/images/fokaya-3.png",
+      "/images/fokaya-4.png"
+    ],
+    "school": "IUT MMI Toulon",
+    "schoolYear": "Année 2",
+    "author": "Mathis LAMBERT",
+    "status": "Completed",
+    "category": "Projet SAÉ",
+    "tools": [
+      "Unity",
+      "C#",
+      "Git",
+      "Visual Studio Code"
+    ],
+    "visibility": "Public",
+    "featured": true,
+    "tags": [
+      "game development",
+      "unity",
+      "c#",
+      "versioning",
+      "git"
+    ]
   }
 ]
