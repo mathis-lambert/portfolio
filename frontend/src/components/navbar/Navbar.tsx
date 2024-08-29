@@ -1,7 +1,7 @@
 import './Navbar.scss'
 import {Link} from "react-router-dom";
 import HomeIcon from "../../icons/HomeIcon.tsx";
-import UserIcon from "../../icons/UserIcon.tsx";
+// import UserIcon from "../../icons/UserIcon.tsx";
 import FolderIcon from "../../icons/FolderIcon.tsx";
 import {Copy} from "react-feather";
 
@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div className="left">
                     <li><Link to="/"><HomeIcon/></Link></li>
                     <li><Link to="/works"><FolderIcon/></Link></li>
-                    <li><Link to="/about"><UserIcon/></Link></li>
+                    {/*<li><Link to="/about"><UserIcon/></Link></li>*/}
                 </div>
                 <div className="right">
                     <li><Link to="_" onClick={(e) => {

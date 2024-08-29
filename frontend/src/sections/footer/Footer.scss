@@ -1,0 +1,40 @@
+footer {
+  background-color: var(--white-gray);
+  color: var(--black-light);
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & .socials {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+
+    & a {
+      background-color: var(--black-light);
+      color: var(--white-gray);
+      padding: 0.3rem;
+      border-radius: 5px;
+      font-size: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+
+      svg {
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+
+      &:hover {
+        background-color: var(--white-gray);
+        color: var(--black-light);
+      }
+    }
+  }
+}

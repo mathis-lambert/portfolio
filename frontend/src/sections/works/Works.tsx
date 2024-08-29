@@ -242,6 +242,10 @@ const Works = ({limit = null, section = false}: { limit: number | null, section:
             <div className="works-container">
                 {filteredWorks.map((work) => (
                     <div key={work._id} className={"work"}>
+                        <div className="work-background">
+                            <img src={"/images/gradients/gradient_" + (Math.floor(Math.random() * 10) + 1) + ".jpg"}
+                                 alt={"background"}/>
+                        </div>
                         <div className="work-header">
                             <div className="work-title">
                                 <h2>{work.title}</h2>

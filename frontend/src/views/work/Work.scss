@@ -79,3 +79,13 @@
     }
   }
 }
+
+@media screen and (max-width: 548px) {
+  .work__view {
+    &__details {
+      flex-direction: column-reverse;
+      gap: 2rem;
+      align-items: normal;
+    }
+  }
+}

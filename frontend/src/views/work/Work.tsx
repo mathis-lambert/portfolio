@@ -25,6 +25,10 @@ export interface Work {
     author: string;
     status: 'In Progress' | 'Completed' | 'On Hold';
     projectUrl?: string;
+    projetLinks?: {
+        title: string;
+        url: string
+    }[];
     repositoryUrl?: string;
     client?: string;
     testimonials?: Testimonial[];
@@ -107,6 +111,19 @@ const Work = () => {
                                         </ul>
                                     </div>
                                 </div>
+                                {work?.projetLinks && work.projetLinks.length > 0 && (
+                                    <div className="work__view__info__item">
+                                        <h2>Liens</h2>
+                                        <div className="work__view__info__item__value">
+                                            <ul>
+                                                {work?.projetLinks?.map((link, index) => (
+                                                    <li key={index}><a href={link.url} target="_blank">{link.title}</a>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
 
                         </div>

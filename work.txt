@@ -1,16 +1,35 @@
-<p>Dans le cadre de la SAÉ 403 qui s'est déroulée sous la forme d'une GameJam (Hackathon destiné aux Jeux Vidéos) au cours du 2nd semestre de ma 2ᵉ année de BUT MMI.
-Ce hackathon avait comme thème "Voyage au centre de la terre" et s'est déroulé en groupe. J'étais le seul développeur au sein du groupe, mais mes coéquipiers se sont donc occupé de tout l'aspect narratif ainsi que la conception des visuels. <br />
-En parallèle, je me suis occupé du développement intégral du jeu en moins de 3 jours. <br /> Les cours que nous avons eus en Game Dev m'ont permis d'utiliser Unity avec les connaissances nécessaires pour développer rapidement tout en versionnant mon code avec Git. <br />
-Le style de jeux sur lequel nous sommes parti est un jeu d'aventure avec vue de haut. L'objectif ici est d'explorer, résoudre des énigmes, se défendre de terribles créatures et réussir à arriver au bout sans mourir !
-<br />
-<b>Une version jouable en ligne arrive bientôt !</b>
-<br /> <br />
-Dans le cadre du programme national, cette SAÉ s'intègre dans les unités d'enseignements (UE) :
-</p>
+<p>Durant ma dernière année en MMI, dans le cadre de la SAE 501, toute la promotion de développeurs a travaillé ensemble sur un projet ambitieux : la création d'une plateforme collaborative de visioconférence open-source, baptisée <b>VisioConf</b>.<br/>
+L'objectif de ce projet était de concevoir une plateforme de visioconférence open-source, adaptée aux besoins des entreprises et des écoles pour organiser des réunions, des cours à distance, et partager des documents en toute simplicité.</p>
+
+<h2>Projet</h2>
+<p>Le développement de ce projet devait respecter une contrainte majeure : il devait être entièrement open-source, full-stack JavaScript, et conçu de manière agnostique pour permettre aux étudiants des années suivantes de le reprendre facilement, sans être limités par l'utilisation d'un framework spécifique. <br/>
+Pour répondre à ces exigences, nous avons choisi les technologies suivantes :</p>
+
 <ul>
-<li><b>UE 4.4</b> : Développer</li>
+  <li>NodeJS</li>
+  <li>Express</li>
+  <li>Socket.io</li>
+  <li>React</li>
+  <li>Redux</li>
 </ul>
-<p>Les apprentissages critiques de ces UE sont les suivants :</p>
+
+<p>Ce projet s'inscrit dans le cadre du programme national et contribue aux unités d'enseignement (UE) suivantes :</p>
 <ul>
-<li><b>AC 24.03</b> : Intégrer, Produire ou développer des interactions riches ou des dispositifs interactifs</li>
+  <li><b>UE 5.4</b> : Développer</li>
+  <li><b>UE 5.5</b> : Entreprendre</li>
 </ul>
+
+<p>Les compétences développées au cours de ce projet sont :</p>
+<ul>
+  <li><b>AC 34.01</b> : Développer avec un framework côté client</li>
+  <li><b>AC 34.02</b> : Développer avec un framework côté serveur</li>
+  <li><b>AC 34.03</b> : Concevoir des dispositifs interactifs avancés</li>
+  <li><b>AC 34.04</b> : Créer des composants logiciels, plugins ou extensions</li>
+  <li><b>AC 34.05</b> : Gérer l'hébergement et le déploiement d'applications</li>
+  <li><b>AC 35.01</b> : Piloter un projet ou une équipe</li>
+  <li><b>AC 35.02</b> : Assurer la qualité d'un projet web ou multimédia</li>
+  <li><b>AC 35.03</b> : Concevoir un projet d'entreprise innovante (nom, identité, forme juridique, ton de la marque)</li>
+  <li><b>AC 35.04</b> : Défendre un projet de manière convaincante</li>
+</ul>
+
+<p>Grâce à ce projet, nous avons non seulement renforcé nos compétences techniques, mais aussi développé une compréhension approfondie des enjeux de collaboration et de gestion de projets dans un contexte de développement logiciel complexe.</p>
